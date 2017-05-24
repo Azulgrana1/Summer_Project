@@ -1,0 +1,102 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c70ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c70ce.dir/build.make CMakeFiles/cmTC_c70ce.dir/build
+make[1]: 正在进入目录 `/home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c70ce.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_c70ce.dir/CheckSymbolExists.c.o   -c /home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c70ce
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c70ce.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_c70ce.dir/CheckSymbolExists.c.o  -o cmTC_c70ce -rdynamic 
+CMakeFiles/cmTC_c70ce.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_c70ce] 错误 1
+make[1]:正在离开目录 `/home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp'
+make: *** [cmTC_c70ce/fast] 错误 2
+
+File /home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b74a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b74a0.dir/build.make CMakeFiles/cmTC_b74a0.dir/build
+make[1]: 正在进入目录 `/home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b74a0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b74a0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b74a0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b74a0.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b74a0.dir/CheckFunctionExists.c.o  -o cmTC_b74a0 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_b74a0] 错误 1
+make[1]:正在离开目录 `/home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp'
+make: *** [cmTC_b74a0/fast] 错误 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb500/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb500.dir/build.make CMakeFiles/cmTC_bb500.dir/build
+make[1]: 正在进入目录 `/home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb500.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_bb500.dir/CheckSymbolExists.c.o   -c /home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bb500
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb500.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_bb500.dir/CheckSymbolExists.c.o  -o cmTC_bb500 -rdynamic 
+CMakeFiles/cmTC_bb500.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_bb500] 错误 1
+make[1]:正在离开目录 `/home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp'
+make: *** [cmTC_bb500/fast] 错误 2
+
+File /home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f06f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f06f3.dir/build.make CMakeFiles/cmTC_f06f3.dir/build
+make[1]: 正在进入目录 `/home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f06f3.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f06f3.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f06f3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f06f3.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f06f3.dir/CheckFunctionExists.c.o  -o cmTC_f06f3 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_f06f3] 错误 1
+make[1]:正在离开目录 `/home/yuhan/Summer_Project/StreetLight/bin/CMakeFiles/CMakeTmp'
+make: *** [cmTC_f06f3/fast] 错误 2
+
+
